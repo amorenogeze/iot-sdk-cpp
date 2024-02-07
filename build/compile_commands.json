@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/server1/repo/iot-sdk-cpp/build",
+  "command": "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-g++ --sysroot=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi -DAWS_AUTH_USE_IMPORT_EXPORT -DAWS_CAL_USE_IMPORT_EXPORT -DAWS_CHECKSUMS_USE_IMPORT_EXPORT -DAWS_COMMON_USE_IMPORT_EXPORT -DAWS_COMPRESSION_USE_IMPORT_EXPORT -DAWS_CRT_CPP_USE_IMPORT_EXPORT -DAWS_EVENT_STREAM_USE_IMPORT_EXPORT -DAWS_HTTP_USE_IMPORT_EXPORT -DAWS_IO_USE_IMPORT_EXPORT -DAWS_MQTT_USE_IMPORT_EXPORT -DAWS_S3_USE_IMPORT_EXPORT -DAWS_SDKUTILS_USE_IMPORT_EXPORT -DAWS_USE_EPOLL  -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 -g -Wall -Wno-long-long -pedantic -Werror -fPIC -o CMakeFiles/iot-sdk-cpp.dir/src/main.cpp.o -c /home/server1/repo/iot-sdk-cpp/src/main.cpp",
+  "file": "/home/server1/repo/iot-sdk-cpp/src/main.cpp",
+  "output": "CMakeFiles/iot-sdk-cpp.dir/src/main.cpp.o"
+}
+]

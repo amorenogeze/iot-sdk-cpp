@@ -1,0 +1,7 @@
+[
+    {
+        "name" : "ccmp15-dvk",
+        "toolchainFile" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi-toolchain.cmake",
+        "environmentSetupScript" : "/opt/dey/4.0-r4/ccmp15-dvk/environment-setup-cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi"
+    }
+]

@@ -1,0 +1,584 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Linux -  - arm
+      The host system is: Linux - 5.4.0-150-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-gcc 
+      Build flags: -mthumb;-mfpu=neon-vfpv4;-mfloat-abi=hard;-mcpu=cortex-a7
+      Id flags:  
+      
+      The output was:
+      1
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find Scrt1.o: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find crti.o: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find crtbeginS.o: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find -lgcc: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find -lgcc_s: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find -lc: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find -lgcc: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find -lgcc_s: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find crtendS.o: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find crtn.o: No such file or directory
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-gcc 
+      Build flags: -mthumb;-mfpu=neon-vfpv4;-mfloat-abi=hard;-mcpu=cortex-a7
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /home/server1/repo/iot-sdk-cpp/build/CMakeFiles/3.28.0-rc5/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-g++ 
+      Build flags: -mthumb;-mfpu=neon-vfpv4;-mfloat-abi=hard;-mcpu=cortex-a7
+      Id flags:  
+      
+      The output was:
+      1
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find Scrt1.o: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find crti.o: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find crtbeginS.o: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find -lstdc++: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find -lm: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find -lgcc_s: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find -lgcc: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find -lc: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find -lgcc_s: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find -lgcc: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find crtendS.o: No such file or directory
+      /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/ld: cannot find crtn.o: No such file or directory
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-g++ 
+      Build flags: -mthumb;-mfpu=neon-vfpv4;-mfloat-abi=hard;-mcpu=cortex-a7
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/server1/repo/iot-sdk-cpp/build/CMakeFiles/3.28.0-rc5/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/server1/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/server1/repo/iot-sdk-cpp/build/CMakeFiles/CMakeScratch/TryCompile-FI0hhX"
+      binary: "/home/server1/repo/iot-sdk-cpp/build/CMakeFiles/CMakeScratch/TryCompile-FI0hhX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7"
+      CMAKE_SYSROOT: "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/server1/repo/iot-sdk-cpp/build/CMakeFiles/CMakeScratch/TryCompile-FI0hhX'
+        
+        Run Build Command(s): /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/bin/ninja -v cmTC_bc67c
+        [1/2] /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-gcc --sysroot=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi   -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7    -v -o CMakeFiles/cmTC_bc67c.dir/CMakeCCompilerABI.c.o -c /home/server1/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-gcc
+        Target: arm-dey-linux-gnueabi
+        Configured with: ../../../../../../work-shared/gcc-11.4.0-r0/gcc-11.4.0/configure --build=x86_64-linux --host=x86_64-deysdk-linux --target=arm-dey-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-dey-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.4.0 --with-build-time-tools=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot-native/usr/arm-dey-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon-vfpv4' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_bc67c.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_bc67c.dir/'
+         /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/cc1 -quiet -v -isysroot /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi /home/server1/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_bc67c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 -mtls-dialect=gnu -mlibarch=armv7ve+simd -march=armv7ve+simd -version -o /tmp/ccEVgvXH.s
+        GNU C17 (GCC) version 11.4.0 (arm-dey-linux-gnueabi)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/local/include"
+        ignoring nonexistent directory "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/../../../../../arm-dey-linux-gnueabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include
+         /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/include
+         /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include-fixed
+         /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/
+        End of search list.
+        GNU C17 (GCC) version 11.4.0 (arm-dey-linux-gnueabi)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: e34b435bee8978ed30a3c76f13fca52e
+        COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon-vfpv4' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_bc67c.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_bc67c.dir/'
+         /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/as -v -march=armv7ve -mfloat-abi=hard -mfpu=neon-vfpv4 -meabi=5 -o CMakeFiles/cmTC_bc67c.dir/CMakeCCompilerABI.c.o /tmp/ccEVgvXH.s
+        GNU assembler version 2.38 (arm-dey-linux-gnueabi) using BFD version (GNU Binutils) 2.38.20220708
+        COMPILER_PATH=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/
+        LIBRARY_PATH=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/
+        COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon-vfpv4' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_bc67c.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_bc67c.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-gcc --sysroot=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -Wl,-z,relro,-z,now -v  -rdynamic CMakeFiles/cmTC_bc67c.dir/CMakeCCompilerABI.c.o -o cmTC_bc67c   && :
+        Using built-in specs.
+        COLLECT_GCC=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-gcc
+        COLLECT_LTO_WRAPPER=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/lto-wrapper
+        Target: arm-dey-linux-gnueabi
+        Configured with: ../../../../../../work-shared/gcc-11.4.0-r0/gcc-11.4.0/configure --build=x86_64-linux --host=x86_64-deysdk-linux --target=arm-dey-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-dey-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.4.0 --with-build-time-tools=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot-native/usr/arm-dey-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (GCC) 
+        COMPILER_PATH=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/
+        LIBRARY_PATH=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/
+        COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon-vfpv4' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-rdynamic' '-o' 'cmTC_bc67c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'cmTC_bc67c.'
+         /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/collect2 -plugin /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/liblto_plugin.so -plugin-opt=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGj9MYB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_bc67c /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/Scrt1.o /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crti.o /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtbeginS.o -L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0 -L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib -L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0 -L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_bc67c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtendS.o /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crtn.o
+        COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon-vfpv4' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-rdynamic' '-o' 'cmTC_bc67c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'cmTC_bc67c.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/server1/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include]
+          add: [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/include]
+          add: [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include-fixed]
+          add: [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/]
+        end of search list found
+        collapse include dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include]
+        collapse include dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/include] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/include]
+        collapse include dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include-fixed] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include-fixed]
+        collapse include dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include]
+        implicit include dirs: [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/include;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include-fixed;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/home/server1/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-dey-linux-gnueabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/server1/repo/iot-sdk-cpp/build/CMakeFiles/CMakeScratch/TryCompile-FI0hhX']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/bin/ninja -v cmTC_bc67c]
+        ignore line: [[1/2] /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-gcc --sysroot=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi   -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7    -v -o CMakeFiles/cmTC_bc67c.dir/CMakeCCompilerABI.c.o -c /home/server1/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-gcc]
+        ignore line: [Target: arm-dey-linux-gnueabi]
+        ignore line: [Configured with: ../../../../../../work-shared/gcc-11.4.0-r0/gcc-11.4.0/configure --build=x86_64-linux --host=x86_64-deysdk-linux --target=arm-dey-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-dey-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.4.0 --with-build-time-tools=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot-native/usr/arm-dey-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon-vfpv4' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_bc67c.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_bc67c.dir/']
+        ignore line: [ /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/cc1 -quiet -v -isysroot /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi /home/server1/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_bc67c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 -mtls-dialect=gnu -mlibarch=armv7ve+simd -march=armv7ve+simd -version -o /tmp/ccEVgvXH.s]
+        ignore line: [GNU C17 (GCC) version 11.4.0 (arm-dey-linux-gnueabi)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/../../../../../arm-dey-linux-gnueabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include]
+        ignore line: [ /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/include]
+        ignore line: [ /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include-fixed]
+        ignore line: [ /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (GCC) version 11.4.0 (arm-dey-linux-gnueabi)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: e34b435bee8978ed30a3c76f13fca52e]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon-vfpv4' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_bc67c.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_bc67c.dir/']
+        ignore line: [ /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/as -v -march=armv7ve -mfloat-abi=hard -mfpu=neon-vfpv4 -meabi=5 -o CMakeFiles/cmTC_bc67c.dir/CMakeCCompilerABI.c.o /tmp/ccEVgvXH.s]
+        ignore line: [GNU assembler version 2.38 (arm-dey-linux-gnueabi) using BFD version (GNU Binutils) 2.38.20220708]
+        ignore line: [COMPILER_PATH=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/]
+        ignore line: [LIBRARY_PATH=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon-vfpv4' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_bc67c.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_bc67c.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-gcc --sysroot=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 -Wl -O1 -Wl --hash-style=gnu -Wl --as-needed  -Wl -z relro -z now -v  -rdynamic CMakeFiles/cmTC_bc67c.dir/CMakeCCompilerABI.c.o -o cmTC_bc67c   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/lto-wrapper]
+        ignore line: [Target: arm-dey-linux-gnueabi]
+        ignore line: [Configured with: ../../../../../../work-shared/gcc-11.4.0-r0/gcc-11.4.0/configure --build=x86_64-linux --host=x86_64-deysdk-linux --target=arm-dey-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-dey-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.4.0 --with-build-time-tools=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot-native/usr/arm-dey-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/]
+        ignore line: [LIBRARY_PATH=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon-vfpv4' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-rdynamic' '-o' 'cmTC_bc67c' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'cmTC_bc67c.']
+        link line: [ /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/collect2 -plugin /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/liblto_plugin.so -plugin-opt=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGj9MYB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_bc67c /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/Scrt1.o /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crti.o /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtbeginS.o -L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0 -L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib -L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0 -L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_bc67c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtendS.o /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crtn.o]
+          arg [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccGj9MYB.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-armhf.so.3] ==> ignore
+          arg [-X] ==> ignore
+          arg [-m] ==> ignore
+          arg [armelf_linux_eabi] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_bc67c] ==> ignore
+          arg [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/Scrt1.o] ==> obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/Scrt1.o]
+          arg [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crti.o] ==> obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crti.o]
+          arg [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtbeginS.o] ==> obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtbeginS.o]
+          arg [-L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0] ==> dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0]
+          arg [-L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib] ==> dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib]
+          arg [-L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0] ==> dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0]
+          arg [-L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib] ==> dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib]
+          arg [-O1] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [CMakeFiles/cmTC_bc67c.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtendS.o] ==> obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtendS.o]
+          arg [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crtn.o] ==> obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crtn.o]
+        collapse obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/Scrt1.o] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/Scrt1.o]
+        collapse obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crti.o] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crti.o]
+        collapse obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtbeginS.o] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtbeginS.o]
+        collapse obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtendS.o] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtendS.o]
+        collapse obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crtn.o] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crtn.o]
+        collapse library dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0]
+        collapse library dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib]
+        collapse library dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0]
+        collapse library dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/Scrt1.o;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crti.o;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtbeginS.o;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtendS.o;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crtn.o]
+        implicit dirs: [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/server1/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/server1/repo/iot-sdk-cpp/build/CMakeFiles/CMakeScratch/TryCompile-NyZATO"
+      binary: "/home/server1/repo/iot-sdk-cpp/build/CMakeFiles/CMakeScratch/TryCompile-NyZATO"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7"
+      CMAKE_SYSROOT: "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/server1/repo/iot-sdk-cpp/build/CMakeFiles/CMakeScratch/TryCompile-NyZATO'
+        
+        Run Build Command(s): /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/bin/ninja -v cmTC_56755
+        [1/2] /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-g++ --sysroot=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi   -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7    -v -o CMakeFiles/cmTC_56755.dir/CMakeCXXCompilerABI.cpp.o -c /home/server1/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-g++
+        Target: arm-dey-linux-gnueabi
+        Configured with: ../../../../../../work-shared/gcc-11.4.0-r0/gcc-11.4.0/configure --build=x86_64-linux --host=x86_64-deysdk-linux --target=arm-dey-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-dey-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.4.0 --with-build-time-tools=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot-native/usr/arm-dey-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon-vfpv4' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_56755.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_56755.dir/'
+         /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/cc1plus -quiet -v -isysroot /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi -D_GNU_SOURCE /home/server1/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_56755.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 -mtls-dialect=gnu -mlibarch=armv7ve+simd -march=armv7ve+simd -version -o /tmp/ccgu5s8x.s
+        GNU C++17 (GCC) version 11.4.0 (arm-dey-linux-gnueabi)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/local/include"
+        ignoring nonexistent directory "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/../../../../../arm-dey-linux-gnueabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/c++/11.4.0
+         /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/c++/11.4.0/arm-dey-linux-gnueabi
+         /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/c++/11.4.0/backward
+         /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include
+         /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/include
+         /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include-fixed
+         /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/
+        End of search list.
+        GNU C++17 (GCC) version 11.4.0 (arm-dey-linux-gnueabi)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 53a3705af8f3c8462af789ba24683b7e
+        COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon-vfpv4' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_56755.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_56755.dir/'
+         /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/as -v -march=armv7ve -mfloat-abi=hard -mfpu=neon-vfpv4 -meabi=5 -o CMakeFiles/cmTC_56755.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccgu5s8x.s
+        GNU assembler version 2.38 (arm-dey-linux-gnueabi) using BFD version (GNU Binutils) 2.38.20220708
+        COMPILER_PATH=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/
+        LIBRARY_PATH=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/
+        COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon-vfpv4' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_56755.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_56755.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-g++ --sysroot=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -Wl,-z,relro,-z,now -v  -rdynamic CMakeFiles/cmTC_56755.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_56755   && :
+        Using built-in specs.
+        COLLECT_GCC=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-g++
+        COLLECT_LTO_WRAPPER=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/lto-wrapper
+        Target: arm-dey-linux-gnueabi
+        Configured with: ../../../../../../work-shared/gcc-11.4.0-r0/gcc-11.4.0/configure --build=x86_64-linux --host=x86_64-deysdk-linux --target=arm-dey-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-dey-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.4.0 --with-build-time-tools=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot-native/usr/arm-dey-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (GCC) 
+        COMPILER_PATH=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/
+        LIBRARY_PATH=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/
+        COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon-vfpv4' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-rdynamic' '-o' 'cmTC_56755' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'cmTC_56755.'
+         /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/collect2 -plugin /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/liblto_plugin.so -plugin-opt=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9ptwLd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_56755 /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/Scrt1.o /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crti.o /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtbeginS.o -L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0 -L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib -L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0 -L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_56755.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtendS.o /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crtn.o
+        COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon-vfpv4' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-rdynamic' '-o' 'cmTC_56755' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'cmTC_56755.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/server1/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/c++/11.4.0]
+          add: [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/c++/11.4.0/arm-dey-linux-gnueabi]
+          add: [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/c++/11.4.0/backward]
+          add: [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include]
+          add: [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/include]
+          add: [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include-fixed]
+          add: [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/]
+        end of search list found
+        collapse include dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/c++/11.4.0] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/c++/11.4.0]
+        collapse include dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/c++/11.4.0/arm-dey-linux-gnueabi] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/c++/11.4.0/arm-dey-linux-gnueabi]
+        collapse include dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/c++/11.4.0/backward] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/c++/11.4.0/backward]
+        collapse include dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include]
+        collapse include dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/include] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/include]
+        collapse include dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include-fixed] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include-fixed]
+        collapse include dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include]
+        implicit include dirs: [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/c++/11.4.0;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/c++/11.4.0/arm-dey-linux-gnueabi;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/c++/11.4.0/backward;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/include;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include-fixed;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/server1/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/home/server1/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-dey-linux-gnueabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/server1/repo/iot-sdk-cpp/build/CMakeFiles/CMakeScratch/TryCompile-NyZATO']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/bin/ninja -v cmTC_56755]
+        ignore line: [[1/2] /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-g++ --sysroot=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi   -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7    -v -o CMakeFiles/cmTC_56755.dir/CMakeCXXCompilerABI.cpp.o -c /home/server1/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-g++]
+        ignore line: [Target: arm-dey-linux-gnueabi]
+        ignore line: [Configured with: ../../../../../../work-shared/gcc-11.4.0-r0/gcc-11.4.0/configure --build=x86_64-linux --host=x86_64-deysdk-linux --target=arm-dey-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-dey-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.4.0 --with-build-time-tools=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot-native/usr/arm-dey-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon-vfpv4' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_56755.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_56755.dir/']
+        ignore line: [ /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/cc1plus -quiet -v -isysroot /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi -D_GNU_SOURCE /home/server1/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_56755.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 -mtls-dialect=gnu -mlibarch=armv7ve+simd -march=armv7ve+simd -version -o /tmp/ccgu5s8x.s]
+        ignore line: [GNU C++17 (GCC) version 11.4.0 (arm-dey-linux-gnueabi)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/../../../../../arm-dey-linux-gnueabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/c++/11.4.0]
+        ignore line: [ /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/c++/11.4.0/arm-dey-linux-gnueabi]
+        ignore line: [ /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/c++/11.4.0/backward]
+        ignore line: [ /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include]
+        ignore line: [ /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/include]
+        ignore line: [ /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/include-fixed]
+        ignore line: [ /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/include/]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (GCC) version 11.4.0 (arm-dey-linux-gnueabi)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 53a3705af8f3c8462af789ba24683b7e]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon-vfpv4' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_56755.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_56755.dir/']
+        ignore line: [ /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/as -v -march=armv7ve -mfloat-abi=hard -mfpu=neon-vfpv4 -meabi=5 -o CMakeFiles/cmTC_56755.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccgu5s8x.s]
+        ignore line: [GNU assembler version 2.38 (arm-dey-linux-gnueabi) using BFD version (GNU Binutils) 2.38.20220708]
+        ignore line: [COMPILER_PATH=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/]
+        ignore line: [LIBRARY_PATH=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon-vfpv4' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-o' 'CMakeFiles/cmTC_56755.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'CMakeFiles/cmTC_56755.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-g++ --sysroot=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 -Wl -O1 -Wl --hash-style=gnu -Wl --as-needed  -Wl -z relro -z now -v  -rdynamic CMakeFiles/cmTC_56755.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_56755   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/lto-wrapper]
+        ignore line: [Target: arm-dey-linux-gnueabi]
+        ignore line: [Configured with: ../../../../../../work-shared/gcc-11.4.0-r0/gcc-11.4.0/configure --build=x86_64-linux --host=x86_64-deysdk-linux --target=arm-dey-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-deysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-dey-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/11.4.0 --with-build-time-tools=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot-native/usr/arm-dey-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/home/server1/workspace/ccmp15-dvk/tmp/work/x86_64-nativesdk-deysdk-linux/gcc-cross-canadian-arm/11.4.0-r0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/]
+        ignore line: [LIBRARY_PATH=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/:/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mfpu=neon-vfpv4' '-mfloat-abi=hard' '-mcpu=cortex-a7' '-v' '-rdynamic' '-o' 'cmTC_56755' '-shared-libgcc' '-mtls-dialect=gnu' '-mlibarch=armv7ve+simd' '-march=armv7ve+simd' '-dumpdir' 'cmTC_56755.']
+        link line: [ /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/collect2 -plugin /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/liblto_plugin.so -plugin-opt=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9ptwLd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_56755 /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/Scrt1.o /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crti.o /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtbeginS.o -L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0 -L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib -L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0 -L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_56755.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtendS.o /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crtn.o]
+          arg [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/libexec/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc9ptwLd.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-armhf.so.3] ==> ignore
+          arg [-X] ==> ignore
+          arg [-m] ==> ignore
+          arg [armelf_linux_eabi] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_56755] ==> ignore
+          arg [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/Scrt1.o] ==> obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/Scrt1.o]
+          arg [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crti.o] ==> obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crti.o]
+          arg [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtbeginS.o] ==> obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtbeginS.o]
+          arg [-L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0] ==> dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0]
+          arg [-L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib] ==> dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib]
+          arg [-L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0] ==> dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0]
+          arg [-L/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib] ==> dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib]
+          arg [-O1] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [CMakeFiles/cmTC_56755.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtendS.o] ==> obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtendS.o]
+          arg [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crtn.o] ==> obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crtn.o]
+        collapse obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/Scrt1.o] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/Scrt1.o]
+        collapse obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crti.o] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crti.o]
+        collapse obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtbeginS.o] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtbeginS.o]
+        collapse obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtendS.o] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtendS.o]
+        collapse obj [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crtn.o] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crtn.o]
+        collapse library dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0]
+        collapse library dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib]
+        collapse library dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0]
+        collapse library dir [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib] ==> [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/Scrt1.o;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crti.o;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtbeginS.o;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0/crtendS.o;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/crtn.o]
+        implicit dirs: [/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/lib/arm-dey-linux-gnueabi/gcc/arm-dey-linux-gnueabi/11.4.0;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/lib;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/arm-dey-linux-gnueabi/11.4.0;/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib]
+        implicit fwks: []
+      
+      
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/server1/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/server1/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/server1/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/home/server1/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/s2n/cmake/s2n-config.cmake:5 (find_package)"
+      - "/home/server1/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-io/cmake/aws-c-io-config.cmake:4 (find_dependency)"
+      - "/home/server1/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-http/cmake/aws-c-http-config.cmake:3 (find_dependency)"
+      - "/home/server1/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-crt-cpp/cmake/aws-crt-cpp-config.cmake:3 (find_dependency)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/server1/repo/iot-sdk-cpp/build/CMakeFiles/CMakeScratch/TryCompile-2qBkkm"
+      binary: "/home/server1/repo/iot-sdk-cpp/build/CMakeFiles/CMakeScratch/TryCompile-2qBkkm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7"
+      CMAKE_SYSROOT: "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/server1/repo/iot-sdk-cpp/build/CMakeFiles/CMakeScratch/TryCompile-2qBkkm'
+        
+        Run Build Command(s): /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/bin/ninja -v cmTC_56547
+        [1/2] /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-gcc --sysroot=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi -DCMAKE_HAVE_LIBC_PTHREAD  -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 -o CMakeFiles/cmTC_56547.dir/src.c.o -c /home/server1/repo/iot-sdk-cpp/build/CMakeFiles/CMakeScratch/TryCompile-2qBkkm/src.c
+        [2/2] : && /opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/x86_64-deysdk-linux/usr/bin/arm-dey-linux-gnueabi/arm-dey-linux-gnueabi-gcc --sysroot=/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/../../../../../sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -Wl,-z,relro,-z,now   -rdynamic CMakeFiles/cmTC_56547.dir/src.c.o -o cmTC_56547   && :
+        
+      exitCode: 0
+...

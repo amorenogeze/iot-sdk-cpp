@@ -1,0 +1,6 @@
+/home/server1/repo/iot-sdk-cpp/build/CMakeFiles/iot-sdk-cpp.dir
+/home/server1/repo/iot-sdk-cpp/build/CMakeFiles/build.dir
+/home/server1/repo/iot-sdk-cpp/build/CMakeFiles/build_deploy.dir
+/home/server1/repo/iot-sdk-cpp/build/CMakeFiles/build_deploy_debug.dir
+/home/server1/repo/iot-sdk-cpp/build/CMakeFiles/edit_cache.dir
+/home/server1/repo/iot-sdk-cpp/build/CMakeFiles/rebuild_cache.dir

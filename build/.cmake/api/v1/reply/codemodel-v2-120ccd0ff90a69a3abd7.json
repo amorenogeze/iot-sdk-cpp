@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "iot-sdk-cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "build::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-build-Debug-5fd3e476417dae6e1eb5.json",
+					"name" : "build",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "build_deploy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-build_deploy-Debug-09df20c6f21dc4c024bb.json",
+					"name" : "build_deploy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "build_deploy_debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-build_deploy_debug-Debug-b13544b5c694c23e3d31.json",
+					"name" : "build_deploy_debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "iot-sdk-cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-iot-sdk-cpp-Debug-8a5baf275c3bd106fb5e.json",
+					"name" : "iot-sdk-cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/server1/repo/iot-sdk-cpp/build",
+		"source" : "/home/server1/repo/iot-sdk-cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

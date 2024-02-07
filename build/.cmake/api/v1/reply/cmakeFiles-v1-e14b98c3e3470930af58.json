@@ -1,0 +1,469 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.28.0-rc5/CMakeSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/x86_64-deysdk-linux/usr/share/cmake/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi-toolchain.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.28.0-rc5/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.28.0-rc5/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-crt-cpp/cmake/aws-crt-cpp-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-crt-cpp/cmake/aws-crt-cpp-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-http/cmake/aws-c-http-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-io/cmake/aws-c-io-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/s2n/cmake/s2n-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/s2n/cmake/modules/Findcrypto.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/s2n/cmake/shared/s2n-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/s2n/cmake/shared/s2n-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-common/cmake/aws-c-common-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-common/cmake/shared/aws-c-common-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-common/cmake/shared/aws-c-common-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-cal/cmake/aws-c-cal-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-cal/cmake/shared/aws-c-cal-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-cal/cmake/shared/aws-c-cal-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-io/cmake/shared/aws-c-io-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-io/cmake/shared/aws-c-io-targets-noconfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-compression/cmake/aws-c-compression-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-compression/cmake/shared/aws-c-compression-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-compression/cmake/shared/aws-c-compression-targets-noconfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-http/cmake/shared/aws-c-http-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-http/cmake/shared/aws-c-http-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-mqtt/cmake/aws-c-mqtt-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-mqtt/cmake/shared/aws-c-mqtt-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-mqtt/cmake/shared/aws-c-mqtt-targets-noconfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-auth/cmake/aws-c-auth-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-sdkutils/cmake/aws-c-sdkutils-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-sdkutils/cmake/shared/aws-c-sdkutils-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-sdkutils/cmake/shared/aws-c-sdkutils-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-auth/cmake/shared/aws-c-auth-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-auth/cmake/shared/aws-c-auth-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-event-stream/cmake/aws-c-event-stream-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-checksums/cmake/aws-checksums-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-checksums/cmake/shared/aws-checksums-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-checksums/cmake/shared/aws-checksums-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-event-stream/cmake/shared/aws-c-event-stream-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-event-stream/cmake/shared/aws-c-event-stream-targets-noconfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-s3/cmake/aws-c-s3-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/server1/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-s3/cmake/shared/aws-c-s3-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-c-s3/cmake/shared/aws-c-s3-targets-noconfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-crt-cpp/cmake/shared/aws-crt-cpp-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/dey/4.0-r4/ccmp15-dvk/sysroots/cortexa7t2hf-neon-vfpv4-dey-linux-gnueabi/usr/lib/aws-crt-cpp/cmake/shared/aws-crt-cpp-targets-relwithdebinfo.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/server1/repo/iot-sdk-cpp/build",
+		"source" : "/home/server1/repo/iot-sdk-cpp"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
